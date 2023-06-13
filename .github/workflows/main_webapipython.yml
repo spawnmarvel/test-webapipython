@@ -8,6 +8,8 @@ on:
   push:
     branches:
       - main
+    paths: # elo. Added this
+      - 'webapipython/**' # elo. Added this
   workflow_dispatch:
 
 env:
