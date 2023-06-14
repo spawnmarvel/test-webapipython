@@ -3,6 +3,7 @@ import logging
 import azure.functions as func
 
 # updated yamls file
+# Test github settings->Actions->Allow spawnmarvel actions and reusable workflows
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
